@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoftSell - Software License Resale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        font-family: 'Montserrat', Arial, sans-serif;
+        display: flex;
+        align-items: stretch;
+        justify-content: stretch;
+      }
+      #root {
+        width: 100%;
+        padding: 48px 32px 32px 32px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Removed max-width, margin, background, border-radius, box-shadow */
+      }
+      h1 {
+        color: #4f3ca7;
+        font-size: 2.2rem;
+        margin-bottom: 0.5em;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #ccc;
+        font-size: 1.1rem;
+        margin-bottom: 1.5em;
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        #root {
+          padding: 24px 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- You can add a logo or hero image here -->
+      <h1>SoftSell</h1>
+      <p>Welcome to the Software License Resale Platform.<br>
+      Buy and sell software licenses securely and efficiently.</p>
+      <!-- The React app will mount here -->
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
